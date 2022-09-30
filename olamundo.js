@@ -112,6 +112,13 @@ function validateForm() {
     alert("Espero que tenha gostado da surpresa. Te amamos ❤");
     alert("Ah, e logo tô por aí pra alegrar toda a família 🤗🤩");
     return true;
+  } else if (x == "7384") {
+    alert("Oi! Você foi promovido 😯");
+    alert("Sinta-se privilegiado se recebeu esse aviso, pois você cumpre um papel muito importante na vida dos meus pais 🥹");
+    alert("Sim!!! A Mariana e o Ronaldo estão grávidos 😍👼");
+    alert("Espero que tenha gostado da surpresa. Te amamos ❤");
+    alert("Ah, espero ansiosamente o dia em que conhecerei o mundo e você! 🤗🤩");
+    return true;
   } else {
   	alert("Número inválido!");
   	alert("Digite os 4 últimos digitos do número do seu celular!!");
