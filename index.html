@@ -1,18 +1,27 @@
 <!DOCTYPE html>
 <html>
-<body>
 
-<h2>What Can JavaScript Do?</h2>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<script src="olamundo.js"></script>
+    <title>Olá Mundo</title>
 
-<p>JavaScript can change HTML attribute values.</p>
+</head>
 
-<p>In this case JavaScript changes the value of the src (source) attribute of an image.</p>
+<body style="text-align: center">
 
-<button onclick="document.getElementById('myImage').src='pic_bulbon.gif'">Turn on the light</button>
+<h2>Olá Mundo!</h2>
 
-<img id="myImage" src="pic_bulboff.gif" style="width:100px">
+<h3>Parabéns, você foi promovido(a)</h3>
 
-<button onclick="document.getElementById('myImage').src='pic_bulboff.gif'">Turn off the light</button>
+<img src="https://media.giphy.com/media/E7ypU2qtdDyS3FN1TN/giphy-downsized.gif" style="width:35%;">
+
+<h4>Digite os 4 últimos dígitos do número do seu celular abaixo e surpreenda-se!</h4>
+
+<form name="myForm" action="surpresa.html" onsubmit="return validateForm()" method="post">
+  <input type="number" id ="fname" name="fname" min="1000" max="9999">
+  <input type="submit" value="SURPREENDER-SE">
+</form>
 
 </body>
 </html>
